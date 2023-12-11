@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    >
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Tic-Tac-Toe</title>
+</head>
+<body class="bg-dark vh-100 d-flex flex-column justify-content-center align-items-center">
+
+  <h1 class="text-white "> Tic Tac Toe </h1>
+
+<div class="d-flex justify-content-between  ">
+    <div class="text-warning  m-3">Player X : <span id="playerXWins">0</span></div>
+    <div class="text-warning  m-3">Player O : <span id="playerOWins">0</span></div>
+</div>
+
+  <div id="winner-message" class="text-white h3 m-3"></div>
+   <div class=" container  d-flex flex-column justify-content-center  align-items-center  " >
+      <table  class="text-white"> 
+
+     <tr >
+      <td  id="cell-0-0" class="gamesquar"onclick="MakeMove(0,0)"></td>
+      <td id="cell-1-1" class="gamesquar" onclick="MakeMove(1,1)"></td>
+      <td id="cell-2-2" class="gamesquar" onclick="MakeMove(2,2)"></td>
+     </tr>
+     <tr >
+      <td id="cell-3-3" class="gamesquar" onclick="MakeMove(3,3)"></td>
+      <td id="cell-4-4" class="gamesquar" onclick="MakeMove(4,4)"></td>
+      <td id="cell-5-5" class="gamesquar" onclick="MakeMove(5,5)"></td>
+     </tr>
+     <tr >
+      <td id="cell-6-6" class="gamesquar" onclick="MakeMove(6,6)"></td>
+      <td id="cell-7-7" class="gamesquar" onclick="MakeMove(7,7)"></td>
+      <td id="cell-8-8" class="gamesquar" onclick="MakeMove(8,8)"></td>
+     </tr>
+      </table>
+             
+      <button class=" btn btn-light  m-4" onclick="resetGame()"> Reset </button>
+
+      
+   </div>
+
+   
+    
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

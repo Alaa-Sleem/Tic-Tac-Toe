@@ -1,0 +1,16 @@
+
+body
+{
+    font-family: "Sofia", sans-serif;
+}
+
+.gamesquar
+{
+    border: 4px solid rgb(230, 230, 230);
+    width: 90px;
+    height: 90px;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
